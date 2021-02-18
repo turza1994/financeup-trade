@@ -436,6 +436,18 @@ footer p {
   height: 200px;
   width: 200px;
 }
+.team{
+  position: relative;
+  z-index: 1;
+}
+.team #circle1{
+  max-width: 60%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  z-index: 2;
+}
 .team h4{
   color:#0D1F48;
 }
@@ -451,4 +463,20 @@ footer p {
   height: 65px;
   background-color: #0D1F48;
 
+}
+footer{
+  margin-top: 110px;
+  background-color: #0D1F48;
+  position: relative;
+}
+footer #triangle{
+  position: absolute;
+  bottom: 145px;
+  left: 0;
+}
+footer #circle2{
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  max-width: 80%;
 }
