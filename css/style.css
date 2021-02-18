@@ -438,7 +438,7 @@ footer p {
   background: linear-gradient(216deg, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .country{
-
+  margin-top: -60px !important;
 }
 .country img{
   display: inline-block;
