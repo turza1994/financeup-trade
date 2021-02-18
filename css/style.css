@@ -432,9 +432,22 @@ footer p {
 .blue-txt{
   color:#0D1F48;
 }
-.what-drive-us .Block-Img{
+.upcoming-products{
+  background: #007991; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(216deg, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.country{
+
+}
+.country img{
+  display: inline-block;
   height: 200px;
-  width: 200px;
+  width: 300px;
+}
+.what-drive-us .Block-Img{
+  height: 300px;
+  width: 600px;
 }
 .team{
   position: relative;
@@ -459,10 +472,10 @@ footer p {
 .contact button{
   display: inline-block;
   border-radius: 40px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
   height: 65px;
   background-color: #0D1F48;
-
 }
 footer{
   margin-top: 110px;
