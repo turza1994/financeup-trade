@@ -452,6 +452,7 @@ footer p {
 .team{
   position: relative;
   z-index: 1;
+  
 }
 .team #circle1{
   max-width: 60%;
@@ -463,6 +464,9 @@ footer p {
 }
 .team h4{
   color:#0D1F48;
+}
+.contact{
+
 }
 .contact input, .contact textarea{
   background-color:#02C6C3;
