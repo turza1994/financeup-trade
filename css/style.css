@@ -379,7 +379,7 @@ html, body {
 }
 	#youtube .container {
 	padding: 3em 0 0;
-	background-image:url('img/webb.png');
+	/* background-image:url('img/webb.png'); */
 	}
 #youtube .video{
 	align: center;
@@ -466,7 +466,8 @@ footer p {
   color:#0D1F48;
 }
 .contact{
-
+  z-index: 5;
+  position: relative;
 }
 .contact input, .contact textarea{
   background-color:#02C6C3;
@@ -476,24 +477,24 @@ footer p {
 .contact button{
   display: inline-block;
   border-radius: 40px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   height: 65px;
   background-color: #0D1F48;
 }
-footer{
-  margin-top: 110px;
-  background-color: #0D1F48;
+.contact #triangle{
   position: relative;
-}
-footer #triangle{
-  position: absolute;
-  bottom: 145px;
+  bottom: 0;
   left: 0;
 }
-footer #circle2{
+.contact #circle2{
   position: absolute;
-  bottom: 100px;
+  bottom: 0;
   right: 0;
-  max-width: 80%;
+}
+footer{
+  margin-top: 0;
+  background-color: #0D1F48;
+  position: relative;
+  z-index: 2;
 }
