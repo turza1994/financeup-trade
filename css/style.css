@@ -437,6 +437,9 @@ footer p {
   background: -webkit-linear-gradient(to right, #007991, #78ffd6); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(216deg, #007991, #78ffd6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.upcoming-products .col-md-4{
+  width: 300px;
+}
 .country{
   margin-top: -60px !important;
 }
@@ -464,6 +467,9 @@ footer p {
 }
 .team h4{
   color:#0D1F48;
+}
+.team .col-md-4{
+  width: 300px;
 }
 .contact{
   z-index: 5;
